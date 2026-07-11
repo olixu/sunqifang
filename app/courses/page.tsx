@@ -1,13 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { courses } from "@/lib/content";
 
-export default function CoursesPage() {
-  const grouped = courses.reduce((acc: any, c) => {
-    if (!acc[c.name]) acc[c.name] = [];
-    acc[c.name].push(c);
-    return acc;
-  }, {} as Record<string, typeof courses>);
+export const metadata: Metadata = {
+  title: "教学课程 Courses",
+};
 
+export default function CoursesPage() {
   return (
     <>
       <div className="contents">
