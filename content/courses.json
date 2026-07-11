@@ -1,0 +1,10 @@
+[
+  { "slug": "sensing-tech", "name": "感测技术", "semester": "2025-2026", "term": "第1学期", "hours": "48", "students": [] },
+  { "slug": "hf-circuit-lab", "name": "高频电子线路实验", "semester": "2024-2025", "term": "第2学期", "hours": "32", "students": [] },
+  { "slug": "circuit-analysis-lab", "name": "电路分析基础实验", "semester": "2026-2027", "term": "第1学期", "hours": "32", "students": [] },
+  { "slug": "embedded-system", "name": "嵌入式系统与应用", "semester": "2025-2026", "term": "第1学期", "hours": "48", "students": [] },
+  { "slug": "metalworking", "name": "金工实习", "semester": "2025-2026", "term": "第1学期", "hours": "2周", "students": [] },
+  { "slug": "basic-electronics", "name": "电子基本技能（一）", "semester": "2025-2026", "term": "第1学期", "hours": "24", "students": [] },
+  { "slug": "hf-circuit", "name": "高频电子线路", "semester": "2026-2027", "term": "第1学期", "hours": "48", "students": [] },
+  { "slug": "intro-major", "name": "专业导论", "semester": "2025-2026", "term": "第1学期", "hours": "16", "students": [] }
+]
