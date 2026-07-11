@@ -7,9 +7,10 @@ export function generateStaticParams() {
   return courses.map((c) => ({ slug: c.slug }));
 }
 
-export default function CourseDetailPage({ params }: { params: { slug: string } }) {
-  const course = courses.find((c) => c.slug === params.slug);
-  if (!course) return <p>课程不存在</p>;
+export default async function CourseDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const { slug } = await props.params;
+  const course = courses.find((c) => c.slug === slug);
+  if (!course) return <p>课程未找到</p>;
 
   return (
     <>
@@ -35,11 +36,10 @@ export default function CourseDetailPage({ params }: { params: { slug: string } 
       </table>
 
       <h2 id="students">学生名单 &amp; 成绩</h2>
-      <StudentManager slug={params.slug} />
+      <StudentManager slug={slug} />
 
       <p style={{marginTop:"1.5em",fontSize:"0.82rem",color:"#999"}}>
-        💡 数据保存在此浏览器的 localStorage 中，更换设备或清理缓存会丢失。
-        如需永久保存，请前往 <a href="/admin-page" style={{fontWeight:"bold",color:"#00008b"}}>内容管理</a> 编辑 courses.json。
+        💡 永久保存方法：前往 <a href="/admin-page" style={{fontWeight:"bold",color:"#00008b"}}>内容管理</a> → 课程信息 → 修改 students 数组
       </p>
     </>
   );
