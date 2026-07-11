@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: "孙其芳（Qifang Sun） | 上海师范大学", template: "%s | 孙其芳" },
-  description: "孙其芳，上海师范大学信息与机电工程学院讲师，工学博士（上海交通大学），研究方向：光电传感器测控系统、光谱大数据分析、机器学习算法。",
+  description: "孙其芳，上海师范大学信息与机电工程学院讲师，工学博士（上海交通大学），研究方向：光电传感器测控系统、感知大数据处理、机器学习算法。",
   openGraph: { type: "website", locale: "zh_CN" },
   robots: { index: true, follow: true },
 };
