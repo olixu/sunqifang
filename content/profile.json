@@ -2,20 +2,20 @@
   "name": "孙其芳",
   "nameEn": "Qifang Sun",
   "gender": "女",
-  "title": "讲师（高校）",
+  "title": "讲师",
   "department": "信息与机电工程学院",
   "university": "上海师范大学",
   "email": "qifangsun@shnu.edu.cn",
   "office": "科技楼A705",
   "address": "上海市奉贤区海思路100号，201418",
   "education": [
-    { "degree": "博士", "school": "上海交通大学", "major": "工学博士" },
-    { "degree": "学士", "school": "中国海洋大学", "major": "" }
+    { "degree": "博士", "school": "上海交通大学", "major": "工学博士", "start": "2019", "end": "2024" },
+    { "degree": "学士", "school": "中国海洋大学", "major": "工学学士", "start": "2015", "end": "2019" }
   ],
   "researchDirections": [
     "光电传感器测控系统 — NDIR气体传感器、差分消元算法、宽量程CO₂检测",
-    "光谱大数据分析 — SERS拉曼光谱、LIBS激光诱导击穿光谱、光谱特征提取与识别",
+    "感知大数据处理 — SERS拉曼光谱、LIBS激光诱导击穿光谱、光谱特征提取与识别",
     "机器学习算法 — SMLP网络、深度学习、光谱数据模式识别与回归预测"
   ],
-  "biography": "研究方向聚焦于<b>光电传感器测控系统</b>、<b>光谱大数据分析</b>及<b>机器学习算法</b>。在 NDIR 气体传感器、SERS 拉曼光谱检测及机器学习辅助光谱分析等领域开展原创性研究。在 Sensors and Actuators B: Chemical、IEEE Transactions on Instrumentation & Measurement 等国际权威期刊发表论文多篇，其中中科院一区TOP论文3篇，授权/公开国家发明专利5项。"
+  "biography": "研究方向聚焦于<b>光电传感器测控系统</b>、<b>感知大数据处理</b>及<b>机器学习算法</b>。在 NDIR 气体传感器、SERS 拉曼光谱检测及机器学习辅助光谱分析等领域开展原创性研究。在 Sensors and Actuators B: Chemical、IEEE Transactions on Instrumentation & Measurement 等国际权威期刊发表论文多篇，其中中科院一区TOP论文3篇，授权/公开国家发明专利5项。"
 }

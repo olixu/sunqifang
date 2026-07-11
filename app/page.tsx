@@ -41,7 +41,7 @@ export default function HomePage() {
       <h2 id="education">教育经历 Education</h2>
       <ul>
         {profile.education.map((e, i) => (
-          <li key={i}><strong>{e.degree}</strong> {e.school}，{e.major || e.degree}</li>
+          <li key={i}><strong>{e.degree}</strong> {e.school}，{e.major}（{e.start}—{e.end}）</li>
         ))}
       </ul>
 
@@ -58,12 +58,10 @@ export default function HomePage() {
       <h2 id="publications">代表性论文 Publications</h2>
       {pubPreview.map((pub, i) => (
         <div key={i} className="pub-entry">
-          <div className="pub-authors">{pub.authors}</div>
           <div className="pub-title">{pub.title}</div>
           <div className="pub-source">
             {pub.journal}, {pub.year}{pub.vol ? `, ${pub.vol}` : ""}{pub.pages ? `: ${pub.pages}` : ""}
             <span className="pub-badge">{pub.badge}</span>
-            {pub.tag && <span className="pub-badge" style={{background:"#e8ffec"}}>{pub.tag}</span>}
           </div>
         </div>
       ))}
@@ -101,7 +99,7 @@ export default function HomePage() {
       <ul>
         <li><strong>科研项目</strong>：主持"多源信息融合的油中溶解气体动态感知与深度诊断机制研究"（在研）</li>
         <li><strong>论文审稿</strong>：为 Sensors and Actuators B、IEEE TIM 等期刊担任审稿人</li>
-        <li><strong>招生</strong>：已进入上海师范大学研究生招生导师名录，欢迎联系报考</li>
+        <li><strong>招生</strong>：可招收硕士研究生，欢迎联系报考</li>
       </ul>
       <p><Link href="/publications">查看完整学术信息 →</Link></p>
 

@@ -10,6 +10,7 @@ const files = [
   { name: "论文列表", file: "content/publications.json", desc: "10篇学术论文" },
   { name: "专利列表", file: "content/patents.json", desc: "5项发明专利" },
   { name: "课程信息", file: "content/courses.json", desc: "8门课程" },
+  { name: "团队成员", file: "content/team.json", desc: "研究生/本科生名单" },
 ];
 
 function AuthGate({ onAuth }: { onAuth: () => void }) {

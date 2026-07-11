@@ -20,7 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="menu">
           <div className="menuitem"><Link title="Home" href="/">Home</Link></div>
           <div className="menuitem"><Link title="Research" href="/research">Research</Link></div>
-          <div className="menuitem"><Link title="People" href="/publications">People</Link></div>
+          <div className="menuitem"><Link title="Publications" href="/publications">Publications</Link></div>
+          <div className="menuitem"><Link title="People" href="/people">People</Link></div>
           <div className="menuitem"><Link title="Courses" href="/courses">Courses</Link></div>
           <div className="menuitem"><Link title="Admin" href="/admin-page">Admin</Link></div>
         </div>
@@ -50,7 +51,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <th align="center">
                   <span className="foothome">
                     <Link href="/">Home</Link> / <Link href="/research">Research</Link> /{" "}
-                    <Link href="/publications">People</Link> / <Link href="/courses">Courses</Link>
+                    <Link href="/publications">Publications</Link> / <Link href="/people">People</Link> /{" "}
+                    <Link href="/courses">Courses</Link>
                   </span>
                 </th>
                 <th align="right">
